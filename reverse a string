@@ -1,0 +1,9 @@
+given_string = "1234abcd"
+new_string = " "
+i = -1
+while i >= -(len(given_string)):
+    req_literal = given_string[i]
+    new_string += req_literal
+    i -= 1
+print(new_string)    
+
