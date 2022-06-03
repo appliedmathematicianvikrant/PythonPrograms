@@ -1,0 +1,7 @@
+#  Python program to convert a tuple to a string.
+our_string = " "
+our_tuple = ('e', "x", "e", "r", "c", "i", "s", "e")
+for letter in our_tuple:
+    our_string += letter
+
+print(our_string)    
