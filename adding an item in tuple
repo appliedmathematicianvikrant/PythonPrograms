@@ -1,0 +1,6 @@
+# add an item in a tuple.
+old_tuple = (1, 2, 3)
+old_tuple_list = list(old_tuple) # Since tuples are immutable we convert them first into list and then we convert them into tuple
+old_tuple_list.append(7)
+new_tuple = tuple(old_tuple_list)
+print(new_tuple)
