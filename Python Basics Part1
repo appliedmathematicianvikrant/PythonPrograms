@@ -49,3 +49,68 @@ print(data_tuple)
 
 
 
+##11## Write a Python program to print the documents (syntax, description etc.) of Python built-in function(s).
+Program:
+print(len.__doc__)   # the function is len()
+
+##12## Write a Python program to print the calendar of a given month and year
+Program:
+import calendar
+y = int(input("Input the year : "))
+m = int(input("Input the month : "))
+print(calendar.month(y, m))
+
+##13## Write a Python program to print the following 'here document'.
+
+Sample string:
+a string that you "don't" have to escape
+This
+is a ....... multi-line
+heredoc string --------> example
+
+Solution:
+print("""
+
+is a ....... multi-line
+heredoc string --------> example
+""")
+
+
+
+##14## 
+
+
+
+##15##  Write a Python program to get the volume of a sphere with radius 6.
+solutions:
+import math
+radius = float(input("Enter the radius:"))
+volume = (4/3) * math.pi * radius ** 3
+print("Volume of the cube is:", volume)
+
+##16## 
+
+
+
+##34##. Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will return 20
+int1 = int(input("Enter fifst integer."))
+int2 = int(input("Enter second integer."))
+sum = int1 + int2
+if sum > 15 and sum < 20 :
+    print(20)
+else:
+    print(sum)    
+    
+    
+##58## Write a Python program to sum of the first n positive integers. 
+n = int(input("Enter a positive integer."))
+sum = (n * (n + 1)) / 2
+print(sum) 
+
+
+
+
+
+
+
+
