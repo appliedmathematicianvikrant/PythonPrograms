@@ -1,1 +1,51 @@
+##1##  Write a Python program to print the following string in a specific format
+Twinkle, twinkle, little star,
+	How I wonder what you are! 
+		Up above the world so high,   		
+		Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+	How I wonder what you are
+  
+  Program:  
+  print("""
+Twinkle, twinkle, little star,
+	How I wonder what you are! 
+		Up above the world so high,   		
+		Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+	How I wonder what you are
+"""     )
+
+##2## Write a Python program to get the Python version you are using
+import sys
+print(sys.version)
+
+##3## Write a Python program to display the current date and time.
+import datetime
+now = datetime.datetime.now()
+print ("Current date and time : ")
+print(now)
+
+##4## Write a Python program which accepts the radius of a circle from the user and compute the area.
+import math
+radius = float(input("Enter the raddius of the circle:"))
+Area = math.pi * radius ** 2
+print("The area of the circle is :", Area)
+
+##5## Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.
+first_name = input("Enter your first name:")
+last_name = input("Enter your last name:")
+print(last_name + " " + first_name)
+
+##6## Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers
+data = input("Enter some comma seperated numbers:")
+data_list = data.split(",")      # Do not directly convert input into list use split instead
+data_tuple = tuple(data_list)
+print(data_list)
+print(data_tuple)
+
+##7## Write a Python program to accept a filename from the user and print the extension of that
+
+
+
 
