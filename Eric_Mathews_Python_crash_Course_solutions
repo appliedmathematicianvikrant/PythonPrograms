@@ -1,4 +1,15 @@
+Chapter 1 Variables and Data types
+2.1 Store a message in a varaibel and then print it.
+message = "Happy New Year"
+print(message)
 
+2.2: storea a message in a varaible and print it then change its will and print the new message.
+
+message = "Happy New Year"
+print(message)
+
+message = "Happy New year Vikrant"
+print(message)
 
 
 
