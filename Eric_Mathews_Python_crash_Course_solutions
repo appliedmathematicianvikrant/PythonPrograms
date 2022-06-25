@@ -11,8 +11,25 @@ print(message)
 message = "Happy New year Vikrant"
 print(message)
 
+2.3   Store a person's name in a varaibel and print a message for that person.
+name = "vikrant"
+print("Hello" , name + "," , "would you like to learn some python today?")
 
+2.4 Store a person's name then convert it into lowercase, upper case and title case
+name = "vikrant kumar verma"
+print(name.lower())
+print(name.upper())
+print(name.title())
 
+2.5 print a quote in appropriate format
+print('Albert Einstein once said , "A person who never made a\nmistake never tried anything new" ')
+
+2.6 do the same exercise but store name and message in different variables and print it
+name = "Albert Einstein"
+quote = "A person who never made a\nmistake never tried anything new" 
+print(name ,' once said' , quote)
+
+2.7 Write a name with whitespace and then use lstrip(), rstrip() andd strip() to remove them.
 
 
 
