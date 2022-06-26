@@ -34,6 +34,65 @@ print(name ,' once said' , quote)
 
 
 
+2.8  Write addition, multiplication, subtraction, division to show 8
+print(6 + 2)
+print(4 * 2)
+print(16 / 2)
+print(10 - 2)
+
+
+2.9  Store your favorite number in a variable adn then print a messagae regarding it
+num = 100
+print("one of my favorite number is", num)
+
+2.10  Add a comment to any of the program
+print(6 + 2)   # addition
+print(4 * 2)   # multiplocation
+print(16 / 2)
+print(10 - 2)
+
+2.11 read zen of pyhton
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+3.1 write a list of friends list and print name of each one
+friends = ["Yogendra", "Gajendara", "Ramakant"]
+print( friends[0])
+print( friends[1])
+print(friends[2])
+
+3.2  in the above list write a message for each for each friend by accessing its elements
+friends = ["Yogendra", "Gajendara", "Ramakant"]
+print("Happy Birthday " + friends[0])
+print("Happy Birthday " + friends[1])
+print("Happy Birthday " + friends[2])
+
+3.3 write a list of your favorite mode of transporation along with a message
+Bikes = ["Royal Enfield", "KTM "]
+print("I would like to own a " + Bikes[0])
+print("I would like to own a " + Bikes[1])
+
+
+
+
+
 Chapter 8 Functions
 8.1 Write a function called display_message() that prints one sen- 
 tence telling everyone what you are learning about in this chapter . Call the 
