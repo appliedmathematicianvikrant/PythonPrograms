@@ -30,7 +30,11 @@ quote = "A person who never made a\nmistake never tried anything new"
 print(name ,' once said' , quote)
 
 2.7 Write a name with whitespace and then use lstrip(), rstrip() andd strip() to remove them.
-
+name = '\n\n\t\tAlbert Einstein\t\n\n'
+print(name)
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
 
 
 
