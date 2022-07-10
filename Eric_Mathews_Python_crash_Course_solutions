@@ -335,6 +335,82 @@ first 10 cubes .
 cubes = [x**3 for x in range(1,11)]
 print(cubes)
 
+4.10: Slices: Using one of the programs you wrote in this chapter, add several 
+lines to the end of the program that do the following:
+•	         Print the message, The first three items in the list are: . Then use a slice to 
+print the first three items from that program’s list .
+•	         Print the message, Three items from the middle of the list are: . Use a slice 
+to print three items from the middle of the list .
+•	         Print the message, The last three items in the list are: . Use a slice to print 
+the last three items in the list .
+solution:
+cubes = [x**3 for x in range(1,11)]
+print(cubes)
+first_three = cubes[:3]
+middle_three = cubes[4:7]
+last_three = cubes[-3:]
+print("The first three elements in the list are")
+for i in first_three:
+    print(i)
+
+print("The middle three elements in the list are")
+for i in middle_three:
+    print(i)
+
+print("The last three elements in the list are")
+for x in last_three:
+    print(x)    
+
+4.11: My Pizzas, Your Pizzas: Start with your program from Exercise 4-1 
+(page 60) . Make a copy of the list of pizzas, and call it friend_pizzas . 
+Then, do the following:
+•Add a new pizza to the original list .
+•Add a different pizza to the list friend_pizzas .
+•Prove that you have two separate lists . Print the message, My favorite 
+pizzas are:, and then use a for loop to print the first list . Print the message, 
+My friend’s favorite pizzas are:, and then use a for loop to print the sec- 
+ond list . Make sure each new pizza is stored in the appropriate list .
+solution:
+pizzas = ["Sicilian Pizza ", "Greek Pizza ","California Pizza"]
+friend_pizzas = pizzas[:]
+
+pizzas.append("Macroni pizza")
+friend_pizzas.append("Chicken pizza")
+print("My favorite pizzas are")
+for pizza in pizzas:
+    print(pizza)
+
+print("\nMy friend's favorite pizza are")
+for pizza in friend_pizzas:
+    print(pizza)
+
+4.12: 
+
+4.13: Buffet: A buffet-style restaurant offers only five basic foods . Think of five 
+simple foods, and store them in a tuple .
+•	  Use a for loop to print each food the restaurant offers .
+•	         Try to modify one of the items, and make sure that Python rejects the 
+change .
+•	         The restaurant changes its menu, replacing two of the items with different 
+foods . Add a block of code that rewrites the tuple, and then use a for 
+loop to print each of the items on the revised menu .
+
+solution:
+foods = ("Puri", "Matar Paneer", "Daal", "Chawal","Rayta")
+for food in foods:
+    print(food)
+    
+# foods[0] = "Roti"       modification is not allowed
+
+foods =  ("\nRoti", "Palak Paneer", "Daal", "Chawal","Rayta")  # over writing the variable
+for food in foods:
+    print(food)
+    
+    
+ 
+    
+
+
 
 
 
