@@ -97,6 +97,8 @@ print("I would like to own a " + Bikes[1])
 
 
 
+
+
 Chapter 8 Functions
 8.1 Write a function called display_message() that prints one sen- 
 tence telling everyone what you are learning about in this chapter . Call the 
